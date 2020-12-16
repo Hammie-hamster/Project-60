@@ -8,7 +8,7 @@ body {
 height : 500px;
 }
 
-image1 {
+#image1 {
   width : 200px;
   height : 200px;
   border-radius : 50%;
@@ -74,4 +74,10 @@ iframe {
 img {
   width : 200px;
   height : 200px;
+    transition : transform .2s;
+    border : 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform : scale (0.9)
 }
